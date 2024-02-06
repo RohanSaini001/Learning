@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lemon&family=Rubik+Burned&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#nav-part1 h3{
+    font-size: 16px;
+    border: solid black 1px;
+    padding: 5px 8px;
+    border-radius: 80px;
+}
+#nav-part1 i{
+    font-size: 17px;
+    border: solid black 1px;
+    padding: 5px 10px;
+    border-radius: 80px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+}
+#nav-part3 button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border-radius: 1.5px solid black ;
+    font-size: 16px;
+    background-color: white;
+}
+#orange{
+    border: none;
+    background-color: orangered !important;
+    color: rgb(255, 255, 255);
+}
+#main>h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
